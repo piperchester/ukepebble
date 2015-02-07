@@ -34,6 +34,8 @@ function chord_menu() {
       }, {
         title: 'G'
       }, {
+        title: 'Gm'
+      }, {        
         title: 'G# (Ab)'
       }]
     }]
