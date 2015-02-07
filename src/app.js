@@ -14,6 +14,8 @@ function chord_menu() {
       }, {
         title: 'A7'
       }, {
+        title: 'Am'
+      }, {        
         title: 'A# (Bb)'
       }, {
         title: 'B'
@@ -65,6 +67,9 @@ main.on('click', 'up', function(e) {
       case 'A# (Bb)':
         card.subtitle('0-3-3-1');
         break;
+      case 'Am':
+        card.subtitle('2-2-1-0');
+        break;        
       case 'Bbm':
         card.subtitle('3-3-2-1');
         break;         
