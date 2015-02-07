@@ -12,6 +12,8 @@ function chord_menu() {
       items: [{
         title: 'A'
       }, {
+        title: 'A7'
+      }, {
         title: 'A# (Bb)'
       }, {
         title: 'B'
@@ -49,6 +51,9 @@ main.on('click', 'up', function(e) {
       case 'A':
         card.subtitle('2-2-2-0');
         break;
+      case 'A7':
+        card.subtitle('2-2-2-3');
+        break;        
       case 'A# (Bb)':
         card.subtitle('0-3-3-1');
         break;
@@ -79,6 +84,9 @@ main.on('click', 'up', function(e) {
       case 'G':
         card.subtitle('0-0-0-3');
         break;
+      case 'Gm':
+        card.subtitle('0-3-3-3');
+        break;         
       case 'G# (Ab)':
         card.subtitle('1-1-1-4');
         break;                  
