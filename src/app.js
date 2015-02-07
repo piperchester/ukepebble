@@ -26,8 +26,12 @@ function chord_menu() {
       }, {
         title: 'D'
       }, {
+        title: 'Dm7'
+      }, {        
         title: 'D# (Eb)'
       }, {
+        title: 'D7'
+      }, {        
         title: 'E'
       }, {
         title: 'F'
@@ -76,9 +80,15 @@ main.on('click', 'up', function(e) {
       case 'D':
         card.subtitle('0-2-3-2');
         break;
+      case 'D7':
+        card.subtitle('0-2-1-2');
+        break;        
       case 'D# (Eb)':
         card.subtitle('1-3-4-3');
         break;
+      case 'Dm7':
+        card.subtitle('0-2-1-1');
+        break;        
       case 'E':
         card.subtitle('2-1-0-0');
         break;        
