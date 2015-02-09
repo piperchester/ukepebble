@@ -40,6 +40,8 @@ function chord_menu() {
       }, {        
         title: 'E'
       }, {
+        title: 'E7'
+      }, {        
         title: 'F'
       }, {
         title: 'F# (Gb)'
@@ -108,7 +110,10 @@ main.on('click', 'up', function(e) {
         break;        
       case 'E':
         card.subtitle('2-1-0-0');
-        break;        
+        break;
+      case 'E7':
+        card.subtitle('0-1-0-0');
+        break;         
       case 'F':
         card.subtitle('3-2-1-1');
         break;  
