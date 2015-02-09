@@ -26,6 +26,8 @@ function chord_menu() {
       }, {        
         title: 'C'
       }, {
+        title: 'C7'
+      }, {        
         title: 'C# (Db)'
       }, {
         title: 'C#m'
@@ -92,6 +94,9 @@ main.on('click', 'up', function(e) {
       case 'C':
         card.subtitle('2-0-1-0');
         break;
+      case 'C7':
+        card.subtitle('5-5-5-6');
+        break;        
       case 'C# (Db)':
         card.subtitle('3-1-2-4');
         break;
