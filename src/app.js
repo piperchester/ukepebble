@@ -44,6 +44,8 @@ function chord_menu() {
       }, {        
         title: 'F'
       }, {
+        title: 'Fm'
+      }, {        
         title: 'F# (Gb)'
       }, {
         title: 'F#m'
@@ -117,6 +119,9 @@ main.on('click', 'up', function(e) {
       case 'F':
         card.subtitle('3-2-1-1');
         break;  
+      case 'Fm':
+        card.subtitle('3-1-1-1');
+        break;          
       case 'F# (Gb)':
         card.subtitle('4-3-2-2');
         break;
